@@ -1,8 +1,32 @@
-* {
+styles.css
+
+1️⃣ CSS Reset
+2️⃣ :root typography scale
+3️⃣ body styles
+4️⃣ headings
+5️⃣ other styles* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+
+
+/* Reset */
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+/* Typography Scale */
+:root{...}
+
+/* Body */
+body{...}
+
+/* Headings */
+h1{}
+h2{}
 
 /* Basic page style */
 body {
