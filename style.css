@@ -61,10 +61,14 @@ box-sizing:border-box;
 }
 
 /* Typography Scale */
-:root{...}
+:root{
+
+}
 
 /* Body */
-body{...}
+:body{
+
+}
 
 /* Headings */
 h1{}
