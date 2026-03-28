@@ -51,9 +51,35 @@ body {
 
 /* Header */
 header {
-  text-align: center;
-  margin-bottom: 20px;
+text-align: center;
+margin-bottom: 20px;
 }
+
+/* Navigation (Flexbox) */
+.navbar{
+display:flex;
+justify-content:space-between;
+align-items:center;
+background:#333;
+color:white;
+padding:10px 20px;
+}
+
+.nav-links{
+display:flex;
+gap:20px;
+list-style:none;
+}
+
+.nav-links a{
+color:white;
+text-decoration:none;
+}
+
+.nav-links a:hover{
+text-decoration:underline;
+}
+
 
 /* Headings */
 h1 {
