@@ -14,13 +14,6 @@ box-sizing:border-box;/* CSS Reset */
 /* headings */
 /* other styles */
 
-/* Reset */
-*{
-margin:0;
-padding:0;
-box-sizing:border-box;
-}
-
 /* Typography Scale */
 :root {
   --font-xs: 0.75rem;
@@ -31,6 +24,19 @@ box-sizing:border-box;
   --font-2xl: 1.5rem;
   --font-3xl: 1.875rem;
   --font-4xl: 2.25rem
+}
+
+/* Color System */
+:root {
+  --color-primary: #4f46e5;
+  --color-secondary: #f59e0b;
+  --color-background: #f4f4f4;
+  --color-text: #333333;
+  --color-muted: #777777;
+
+  /* Variations */
+  --color-primary-light: #6366f1;
+  --color-primary-dark: #3730a3;
 }
 
 /* Basic page style */
