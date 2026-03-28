@@ -185,8 +185,7 @@ footer {
 /* Hover Effects */
 
 .card button{
-transition: all 0.3s ease;
-}
+transition:
 
 .card button:hover{
 transform: translateY(-2px);
@@ -197,33 +196,16 @@ box-shadow: 0 4px 6px rgba(0,0,0,0.1);
 box-shadow: 0 10px 20px rgba(0,0,0,0.1);
 }
 
-/* Responsive Grid */
+/* Link Hover */
 
-.projects{
-display:grid;
-grid-template-columns:1fr;
-gap:20px;
+a:hover{
+color: var(--color-primary);
 }
 
-/* Tablet */
+/* Focus State */
 
-@media (min-width:768px){
-.projects{
-grid-template-columns:repeat(2,1fr);
-}
-}
-
-/* Desktop */
-
-@media (min-width:1024px){
-.projects{
-grid-template-columns:repeat(3,1fr);
-}
-}
-
-/* Responsive Images */
-
-img{
-max-width:100%;
-height:auto;
+a:focus,
+button:focus{
+outline: 2px solid var(--color-primary);
+outline-offset: 2px;
 }
