@@ -1,13 +1,14 @@
-styles.css
 
-1️⃣ CSS Reset
-2️⃣ :root typography scale
-3️⃣ body styles
-4️⃣ headings
-5️⃣ other styles* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+
+/* CSS Reset */
+/* :root typography scale */
+/* body styles */
+/* headings */
+/* other styles *//* Reset */
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
 }
 
 
