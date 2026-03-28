@@ -33,8 +33,6 @@ box-sizing:border-box;
   --font-4xl: 2.25rem;
 }
 
-}
-
 /* Basic page style */
 body{
 font-family:'Poppins', sans-serif;
@@ -44,34 +42,6 @@ background-color:#f4f4f4;
 color:#333;
 padding:20px;
 }
-}
-
-/* Typography Scale */
-:root{
-
-}
-
-/* Basic page style */
-body{
-font-family:'Poppins', sans-serif;
-font-size:16px;
-line-height:1.6;
-background-color:#f4f4f4;
-color:#333;
-padding:20px;
-}
-
-
-/* Reset */
-*{
-margin:0;
-padding:0;
-box-sizing:border-box;
-}
-
-/* Typography Scale */
-:root{
-
 }
 
 /* Body */
